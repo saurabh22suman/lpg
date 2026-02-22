@@ -1,0 +1,7 @@
+* @soloengine
+
+/docs/ @soloengine
+/.github/workflows/ @soloengine
+/internal/ @soloengine
+/test/ @soloengine
+/.claude/ @soloengine

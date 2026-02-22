@@ -1,0 +1,8 @@
+title = "LPG gitleaks config"
+
+[allowlist]
+description = "Ignore local environment files"
+paths = [
+  '''^\.env$''',
+  '''^\.env\.example$''',
+]
