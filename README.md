@@ -2,12 +2,12 @@
 
 LPG is a local-first meaning firewall for OpenAI-compatible traffic.
 
-This repository currently implements a **Phase 1 thin vertical slice** focused on:
-- deterministic sanitization,
-- risk scoring and route decisions,
-- fail-closed behavior,
-- request ID traceability,
-- append-only redacted audit chaining.
+This repository currently implements a **Phase 1 foundation with multiprovider extensions**, including:
+- deterministic surrogate sanitization and mapping,
+- risk scoring and deterministic route decisions,
+- local abstraction + remote provider orchestration,
+- fail-closed behavior with critical local-only no-egress handling,
+- request ID traceability and append-only redacted audit chaining.
 
 ---
 
